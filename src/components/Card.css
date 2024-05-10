@@ -1,0 +1,31 @@
+.card {
+    background-image: url('../images/cardImg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 450px;
+    /* border: solid 1px #bbb; */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.card p {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}

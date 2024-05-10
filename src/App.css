@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.decoration-line {
+    width: 10rem;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    left: 2rem;
+}
+
+.card-layout {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.btn-2 {
+    display: grid;
+    place-items: center;
+}
+

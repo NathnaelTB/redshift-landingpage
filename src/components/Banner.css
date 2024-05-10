@@ -1,0 +1,39 @@
+.banner {
+    width: 100%;
+    background-image: url('../images/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    margin-top: 30px;
+    color: red;
+    font-size: 40px;
+    width: 450px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.banner p {
+    color: #9a9a9a;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.banner h3 {
+    margin-bottom: 20px;   
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
