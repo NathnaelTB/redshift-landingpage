@@ -46,8 +46,8 @@
 
 .footer-content {
     position: absolute;
-    top: 60px;
-    left: 450px;
+    top: 15%;
+    left: 35%;
 }
 
 .social-media {
@@ -65,7 +65,7 @@
 }
 
 .social-media h2:hover {
-    color: red;
+    color: #E31C1C;
     transform: scale(1.2);
 }
 
@@ -100,12 +100,12 @@
 .address-element{
     color: white;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .icon {
     margin-right: 5px;
-    color: red;
+    color: #E31C1C;
     font-size: 25px;
 }
 
@@ -120,9 +120,9 @@
     justify-content: space-around;
 }
 
-.footer-titles {
-    color: red; 
+.footer-pagelinks h3, .footer-agreement h3 {
     font-size: x-large;
+    color: #E31C1C;
 }
 
 .footer-pagelinks, .footer-agreement {
@@ -133,12 +133,14 @@
     gap: 20px;
 }
 
-.footer-pagelinks div, .footer-agreement div {
+.footer-agreement div, .footer-pagelinks div{
     transition: 0.3s;
+    font-size: 20px;
 }
 
+
 .footer-pagelinks div:hover, .footer-agreement div:hover {
-    color: red;
+    color: #E31C1C;
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -147,7 +149,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: #E31C1C;
     padding: 20px 0;
     display: flex;
     align-items: center;
