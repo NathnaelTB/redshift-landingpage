@@ -1,17 +1,20 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Be Vietnam Pro;
     margin: 0;
 }
 
 h1 {
-    color: #444;
-    margin-bottom: 5px;
+    color: #32475C;
+    letter-spacing: 4px;
+    font-weight: 900px;
+    font-size: 40px;
+    margin: 20px;
 }
 
 .decoration-line {
-    width: 10rem;
-    height: 3px;
-    background-color: red;
+    width: 199px;
+    height: 4px;
+    background-color: #E31C1C;
     position: relative;
     left: 2rem;
 }

@@ -1,6 +1,6 @@
 .nav-bar {
     width: 100%;
-    height: 2.5rem;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +17,11 @@
     cursor: pointer;
 }
 
+.nav-bar img {
+    width: 72px;
+    height: 49px;
+}
+
 .nav-bar img, .nav-bar Button {
     margin: 0 10px;
 }
@@ -26,10 +31,10 @@
 }
 
 .nav-btn {
-    width: 5.5rem;
+    width: 120px;
     padding: 7px;
-    background-color: darkblue;
-    color: white;
+    background-color: #002060;
+    color: #FAF7F7;
     font-weight: bold;
     cursor: pointer;
 }

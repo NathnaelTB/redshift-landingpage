@@ -13,19 +13,29 @@
 }
 
 .banner h2 {
+    position: absolute;
+    top: 114px;
+    left: 370.11px;
     margin-top: 30px;
-    color: red;
+    color: #E31C1C;
     font-size: 40px;
-    width: 450px;
+    line-height: 50.6px;
+    letter-spacing: 4px;
+    width: 701.05px;
+    height: 102px;
     text-align: center;
     letter-spacing: 2px;
 }
 
 .banner p {
-    color: #9a9a9a;
-    font-size: 25px;
+    color: #32475C;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: Be Vietnam Pro;
+    line-height: 31px;
     letter-spacing: 2px;
-    width: 70%;
+    width: 1116.17px;
+    height: 155px;
     margin: auto;
     text-align: center;
 }
@@ -33,7 +43,10 @@
 .banner h3 {
     margin-bottom: 20px;   
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 700px;
     letter-spacing: 3px;
-    font-style: italic;
+    line-height: 50.4px;
+    letter-spacing: 4px;;
+    font-family: Caveat;
 }

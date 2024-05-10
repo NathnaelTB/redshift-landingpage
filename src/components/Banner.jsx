@@ -5,7 +5,7 @@ import img from '../images/background-img.jpg';
 const Banner = () => {
     return (
         <div className="banner">
-            <h2>Welcome to Redshift Services</h2>
+            <h2>Welcome to Redshift <br />Services</h2>
             <p>
                 At Redshift Corp, we take pride in our commitment to delivering exceptional
                 solutions and services accross diverse sectors. With over seven years of expertise,

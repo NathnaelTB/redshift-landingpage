@@ -2,23 +2,22 @@
     background-image: url('../images/cardImg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 350px;
-    height: 450px;
-    /* border: solid 1px #bbb; */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    height: 500px;
     position: relative;
     padding: 20px;
     margin: 20px 0;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .card h3 {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+    padding: 0 60px;
     width: 200px;
     margin: auto;
     text-align: center;
+    color: #32475C;
 }
 
 .card p {
@@ -27,5 +26,6 @@
     left:50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    line-height: 25px;
     text-align: center;
 }
